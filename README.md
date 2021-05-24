@@ -11,7 +11,7 @@ None.
 Available variables are listed below, along with default values (see defaults/main.yml):
 
 ```yml
-exports: []
+nfs_exports: ["/home/public *(rw,sync,no_root_squash)"]
 ```
 
 Set exported directories

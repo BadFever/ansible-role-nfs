@@ -1,2 +1,2 @@
 ---
-exports: ["172.168.0.0/24(rw,sync,no_subtree_check)"]
+nfs_exports: ["172.168.0.0/24(rw,sync,no_subtree_check)"]
