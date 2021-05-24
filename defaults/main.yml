@@ -1,5 +1,5 @@
 ---
-nfs_exports: ["/var/nfs/ 172.168.0.0/24(rw,sync,no_subtree_check)"]
+nfs_exports: []
 
 nfs_rpcbind_state: started
 nfs_rpcbind_enabled: true
