@@ -27,7 +27,7 @@
     owner: root
     group: root
     mode: 0644
-  notify: reload nfs
+  notify: Reload NFS
   when: nfs_exports|length
 
 - name: Ensure nfs is running.
