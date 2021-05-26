@@ -38,5 +38,6 @@
   mount:
     src: "{{ item.strip().split()[1] }}"
     path: "{{ item.strip().split()[0] }}"
+    fstype: nfs
     state: mounted
   with_items: "{{ nfs_mounts }}"
